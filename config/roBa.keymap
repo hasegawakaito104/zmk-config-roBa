@@ -68,13 +68,13 @@
 
         default_layer {
             bindings = <
-&lt 2 Q    &kp W         &kp E         &kp R                        &kp T                                                     &kp Y          &kp U  &kp I      &kp O         &kp P
+&kp Q      &kp W         &kp E         &kp R                        &kp T                                                     &kp Y          &kp U  &kp I      &kp O         &kp P
 &kp A      &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                  &kp COMMA     &kp H          &kp J  &kp K      &kp L         &lt 5 ENTER
-&kp Z      &kp X         &kp C         &kp V                        &kp B        &kp LSHIFT                     &kp PERIOD    &kp N          &kp M  &kp MINUS  &kp QUESTION  &kp TAB
+&kp Z      &kp X         &kp C         &kp V                        &kp B        &kp LSHIFT                     &kp PERIOD    &kp N          &kp M  &kp MINUS  &kp QUESTION  &mt RSHIFT TAB
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 CAPSLOCK      &lt 1 ESCAPE  &kp BACKSPACE                                  &kp PRINTSCREEN
             >;
 
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_VOLUME_DOWN K_VOLUME_UP>;
         };
 
         FUNCTION {
@@ -88,10 +88,10 @@
 
         NUM {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                             &kp AT_SIGN      &kp PERCENT           &kp SLASH              &kp AT_SIGN      &trans
-&trans  &trans        &trans        &trans        &trans  &trans      &kp HASH       &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans
-&trans  &trans        &trans        &trans        &trans  &trans      &kp AMPERSAND  &kp UNDERSCORE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE   &trans
-&trans  &trans        &trans        &trans        &trans  &trans      &trans         &trans                                                                         &trans
+&trans  &trans  &trans        &trans        &trans                             &kp AT_SIGN      &kp PERCENT           &kp SLASH              &kp AT_SIGN      &trans
+&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans      &kp HASH       &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans
+&trans  &trans  &trans        &trans        &trans  &trans      &kp AMPERSAND  &kp UNDERSCORE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE   &trans
+&trans  &trans  &trans        &trans        &trans  &trans      &trans         &trans                                                                         &trans
             >;
         };
 
