@@ -63,15 +63,11 @@
         };
     };
 
-　　behaviors {
-    scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+    　　
 
-    　　};
-　　};
-
+    behaviors {
+        　　
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -84,7 +80,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 CAPSLOCK      &lt 1 ESCAPE  &kp BACKSPACE                                  &kp PRINTSCREEN
             >;
 
-            sensor-bindings = <&inc_dec_kp K_VOLUME_DOWN K_VOLUME_UP>;
+            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
         };
 
         FUNCTION {
