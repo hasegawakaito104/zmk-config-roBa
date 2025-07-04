@@ -83,7 +83,7 @@
 &kp Q             &kp W         &kp E         &kp R                &kp T                                                     &kp Y          &kp U  &kp I      &kp O         &kp P
 &kp A             &kp S         &kp D         &kp F                &kp G        &kp LG(LC(V))                  &kp COMMA     &kp H          &kp J  &kp K      &kp L         &lt 5 ENTER
 &kp Z             &kp X         &kp C         &kp V                &kp B        &kp LSHIFT                     &kp PERIOD    &kp N          &kp M  &kp MINUS  &kp QUESTION  &mt RSHIFT TAB
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 F7  &lt 1 SPACE  &lt_to_layer_0 3 CAPSLOCK      &lt 1 ESCAPE  &kp BACKSPACE                                  &kp PRINTSCREEN
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 F7  &lt 1 SPACE  &lt_to_layer_0 3 CAPSLOCK      &lt 1 ESCAPE  &kp BACKSPACE                                  &kp LG(PRINTSCREEN)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans        &trans        &trans                             &kp AT_SIGN      &kp PERCENT           &kp SLASH              &kp AT_SIGN      &trans
-&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans      &kp HASH       &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans
-&trans  &trans  &trans        &trans        &trans  &trans      &kp AMPERSAND  &kp UNDERSCORE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE   &trans
-&trans  &trans  &trans        &trans        &trans  &trans      &trans         &trans                                                                         &trans
+&trans  &trans  &bt BT_SEL 0   &bt BT_SEL 1   &trans                             &kp AT_SIGN      &kp PERCENT           &kp SLASH              &kp AT_SIGN      &trans
+&trans  &trans  &kp LS(LC(R))  &kp LS(LC(T))  &trans  &trans      &kp HASH       &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans
+&trans  &trans  &trans         &trans         &trans  &trans      &kp AMPERSAND  &kp UNDERSCORE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE   &trans
+&trans  &trans  &trans         &trans         &trans  &trans      &trans         &trans                                                                         &trans
             >;
         };
 
