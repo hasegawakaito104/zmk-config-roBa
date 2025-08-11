@@ -91,19 +91,19 @@
 
         FUNCTION {
             bindings = <
-&trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                     &trans       &kp F7  &kp F8  &kp F9  &kp F10
-&kp LC(W)     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK  &kp SLASH      &trans           &trans       &kp F4  &kp F5  &kp F6  &kp F11
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp MINUS      &trans           &trans       &kp F1  &kp F2  &kp F3  &kp F12
-&trans        &trans        &trans        &kp ENTER     &kp EQUAL  &trans         &kp LC(LS(TAB))  &kp LC(TAB)                          &trans
+&trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                            &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK  &kp SLASH      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp MINUS      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
+&trans        &trans        &trans        &kp ENTER     &kp EQUAL  &trans         &trans  &trans                          &trans
             >;
         };
 
         NUM {
             bindings = <
-&trans  &trans  &bt BT_SEL 0   &bt BT_SEL 1   &trans                             &kp AT_SIGN      &kp PERCENT           &kp SLASH              &kp AT_SIGN      &trans
-&trans  &trans  &kp LS(LC(R))  &kp LS(LC(T))  &trans  &trans      &kp HASH       &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans
-&trans  &trans  &trans         &trans         &trans  &trans      &kp AMPERSAND  &kp UNDERSCORE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE   &trans
-&trans  &trans  &trans         &trans         &trans  &trans      &trans         &trans                                                                         &trans
+&trans  &trans         &bt BT_SEL 0     &bt BT_SEL 1   &trans                             &kp AT_SIGN      &kp PERCENT           &kp SLASH              &kp AT_SIGN      &trans
+&trans  &kp LS(LC(R))  &kp LC(W)        &kp LS(LC(T))  &trans  &trans      &kp HASH       &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &trans
+&trans  &trans         &kp LC(LS(TAB))  &kp LC(TAB)    &trans  &trans      &kp AMPERSAND  &kp UNDERSCORE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE   &trans
+&trans  &trans         &trans           &trans         &trans  &trans      &trans         &trans                                                                         &trans
             >;
         };
 
